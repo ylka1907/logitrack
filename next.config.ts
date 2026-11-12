@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export', // Собираем проект в готовую статическую папку out
+  basePath: "/logitrack",
   images: {
     unoptimized: true, // Отключаем серверную обработку картинок
   },
